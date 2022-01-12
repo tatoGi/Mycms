@@ -1,0 +1,206 @@
+.navdropdown{
+    margin-left: 48px;
+    position: relative;
+    display: inline-block;
+    &:hover{
+        .navbottomline{
+            width: 100%;
+        }
+    }
+    .childs{
+        padding-top: 10px;
+        position: absolute;
+        transform: scaleY(0);
+        overflow: hidden;
+        left: -19px;
+        a{
+            display: block;
+            color: #fff;
+            background-color: #82A861            ;
+            font-size: 16px;
+            margin-bottom: 4px;
+            padding: 5px 54px 5px 25px;
+            border: 2px solid transparent;
+            &:hover{
+                border: 2px solid #82A861;
+                background-color: #fff;
+                color: #82A861;
+            }
+        }
+    }
+    &:hover{
+        .childs{
+            transform: scaleY(1);
+            transform-origin: top;
+        }
+    }
+    
+}   
+.navbottomline{
+    height: 3px;
+    width: 0;
+    background-color: #82A861;
+    display: block;
+    content: "";
+}
+        header {
+            height: 123px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            .header-grey-div {
+                background-color: #F5F5F5;
+                height: 85px;
+                width: 74.54%;
+                position: absolute;
+                right: 0;
+                top: 0;
+                border-bottom-left-radius: 17px;
+            }
+
+            .content {
+                display: flex;
+                position: relative;
+                z-index: 1;
+                height: 123px;
+
+                .navnav {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    height: 85px;
+
+                    form {
+                        position: relative;
+                        width: 375px;
+
+                        button {
+                            font-size: 22px;
+                            background-color: transparent;
+                            color: #fff;
+                            padding: 7px 15px;
+                            background-color: #A24D1D;
+                            border-radius: 0 8px 8px 0;
+                            border: 2px solid transparent;
+                            transition-duration: .3s;
+                            position: absolute;
+                            right: 0;
+                            // &:hover{
+                            //     color: #A24D1D;
+                            //     background-color: #fff;
+                            //     border: 2px solid #A24D1D;
+                            // }
+                        }
+
+                        input {
+                            width: 333px;
+                            height: 40px;
+                            z-index: -1;
+                            border: 2px solid transparent;
+                            font-size: 16px;
+                            color: #979797;
+                            right: 0;
+                            position: absolute;
+                            transition-duration: .3s;
+                            border-radius: 0 8px 8px 0;
+                            margin-left: 41px;
+                            font-family: 'OpenSans-Regular';
+                            padding-left: 30px;
+                            padding-right: 79px;
+
+                            &:hover {
+                                border: 2px solid #A24D1D;
+                            }
+
+                            &:focus-visible {
+                                outline: none;
+                                border: 2px solid #A24D1D;
+                            }
+                        }
+                    }
+                }
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        height: 76px;
+                    }
+                }
+            }
+
+            nav {
+                a {
+                    color: #4A821B;
+                    font-size: 18px;
+                    line-height: 28px;
+                    padding: 4px;
+                    font-family: 'Bahnschrift';
+
+                    &:hover {
+                        color: #707070;
+
+                    }
+                    
+                }
+            }
+
+            .nav2 {
+                a {
+                    border: 2px solid rgba(112, 112, 112, 0.36);
+                    border-radius: 50%;
+                    width: 34px;
+                    height: 34px;
+                    display: inline-block;
+                    position: relative;
+                    transition-duration: .3s;
+
+                    &:hover {
+                        border: 2px solid transparent;
+
+                        span::before {
+                            color: #4A821B;
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    span::before {
+                        font-size: 21px;
+                        position: absolute;
+                        color: #707070;
+                        transition-duration: .3s;
+                    }
+
+                    &:nth-child(3n-1) span::before {
+                        font-size: 34px;
+                        left: 0px;
+                        top: -2px;
+                    }
+
+                    &:nth-child(3n-2) span::before {
+                        font-size: 34px;
+                        left: -3px;
+                        top: -2px;
+                    }
+
+                    &:nth-child(3n) span::before {
+                        font-size: 36px;
+                        left: -3px;
+                        top: -5px;
+                    }
+
+                    &:first-child {
+                        margin-left: 48px;
+                    }
+                }
+            }
+
+            .nav3 {
+                position: relative;
+                z-index: 1;
+                height: 50px;
+            }
+        }

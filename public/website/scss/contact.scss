@@ -1,0 +1,162 @@
+.contact-page-cover-img {
+    img {
+        width: 100%;
+        height: 238px;
+    }
+}
+
+iframe {
+    height: 477px;
+    width: 100%;
+}
+
+.contact-content {
+    .content {
+        display: flex;
+        justify-content: space-between;
+
+        .inner1 {
+            display: inline-block;
+            border-right: 3px solid rgba(229, 229, 229, 0.53);
+            padding-right: 40px;
+            min-width: 31%;
+            height: fit-content;
+
+            a {
+                display: block;
+                margin-bottom: 20px;
+                color: #9B9B9B;
+                font-size: 16px;
+                font-family: 'OpenSans-Regular';
+                &:hover{
+                    color: #4A821B;
+                }
+                span {
+                    margin-right: 24px;
+
+                    &::before {
+                        color: #4A821B;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        .inner2 {
+            width: 100%;
+            display: inline-block;
+
+            padding-left: 30px;
+
+            form {
+
+                width: fit-content;
+                text-align: right;
+                float: right;
+                display: flex;
+
+                .formright,
+                .formleft {
+                    width: fit-content;
+                    display: inline-block;
+                }
+
+                .formleft {
+                    margin-right: 33px;
+                }
+
+                input {
+                    height: 52px;
+                    width: 400px;
+                    margin-bottom: 1.4rem;
+                    display: block;
+                    background-color: #F5F5F5;
+                    border: 1px solid transparent;
+                    font-size: 16px;
+                    line-height: 48px;
+                    font-family: 'OpenSans-Regular';
+                    padding: 0 20px;
+                    color: #4A821B;
+
+                    &:focus-visible {
+                        outline: none;
+                        border: 2px solid #4A821B;
+                    }
+                    &:hover {
+                        outline: none;
+                        border: 2px solid #4A821B;
+                    }
+                }
+
+                textarea {
+                    height: 200px;
+                    width: 621px;
+                    background-color: #F5F5F5;
+                    border: 1px solid transparent;
+                    font-size: 16px;
+                    line-height: 48px;
+                    font-family: "OpenSans-Regular";
+                    padding: 0px 39px;
+                    color: #4A821B;
+                    display: block;
+                    resize: none;
+
+                    &:focus-visible {
+                        outline: none;
+                        border: 2px solid #4A821B;
+                    }
+                    &:hover {
+                        outline: none;
+                        border: 2px solid #4A821B;
+                    }
+                }
+
+                button {
+                    float: right;
+                    border: 2px solid transparent;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #fff;
+                    background-color: #4A821B;
+                    font-family: 'OpenSans-Bold';
+                    padding: 12px 66px;
+                    transition-duration: .3s;
+                    margin-top: 24px;
+                    margin-bottom: 45px;
+
+                    &:hover {
+                        color: #4A821B;
+                        background-color: #fff;
+                        border: 2px solid #4A821B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.titlecontact {
+    HEIGHT: 110PX;
+    DISPLAY: FLEX;
+    align-items: center;
+
+    a {
+        font-size: 18px;
+        line-height: 24px;
+        color: #6A6A6A;
+        font-family: 'OpenSans-Bold';
+
+        span {
+            height: 3px;
+            width: 24px;
+            background-color: #4A821B;
+            content: "";
+            display: inline-block;
+            position: relative;
+            top: -4px;
+            margin-right: 10px;
+        }
+    }
+
+}

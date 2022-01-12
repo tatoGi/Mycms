@@ -1,0 +1,112 @@
+.publications-section {
+    margin-top: 4px;
+    padding-bottom: 80px;
+
+    .content {
+        grid-row-gap: 50px;
+        grid-column-gap: 27px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+        .child {
+            text-align: center;
+
+            .textt {
+                text-align: left;
+                padding: 13px 42px 20px 58px;
+                box-shadow: 0px 1px 6px 3px rgba(112, 112, 112, 0.26);
+                -webkit-box-shadow: 0px 1px 6px 3px rgba(112, 112, 112, 0.26);
+                -moz-box-shadow: 0px 1px 6px 3px rgba(112, 112, 112, 0.26);
+
+                h2 {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #585858;
+                    font-family: 'Opensans-Bold';
+                    margin-bottom: 14px;
+                    overflow: hidden;
+                    height: 48px;
+                }
+
+                span {
+                    font-size: 14px;
+                    line-height: 19px;
+                    font-family: Opensans-Bold;
+                    color: #888888;
+                    font-family: 'Opensans-Bold';
+                    position: initial !important;
+                    background: initial !important;
+                    float: initial !important;
+                }
+            }
+        }
+    }
+}
+
+.file-part {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.22);
+    border-top: 1px solid rgba(112, 112, 112, 0.22);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+
+    a {
+        position: initial !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        font-family: "OpenSans-bold" !important;
+        display: inline-block !important;
+        width: initial !important;
+        color: #4A821B !important;
+        padding: initial !important;
+        background-color: initial !important;
+        margin-left: 20px;
+    }
+
+    i {
+        font-size: 40px;
+        color: #4A821B;
+    }
+
+    img {
+        width: 40px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+.downloadspan {
+    color: rgba(68, 68, 68, 0.69) !important;
+    font-size: 14px;
+    margin-bottom: 17px;
+    display: block;
+    font-family: "OpenSans-bold";
+}
+
+.seealrelated {
+    color: #538227;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "OpenSans-Semibold";
+    margin-left: 18px;
+
+    span {
+        height: 3px;
+        width: 100%;
+        display: block;
+        background-color: rgba(238, 238, 238, 0.63);
+        margin-top: 5px;
+    }
+}
+
+.relatedseelmorebuttons button {
+    height: 48px;
+    width: 48px;
+    margin-left: 8px;
+}
+
+.publications-section-inner {
+    padding-bottom: 0;
+    .content{
+        padding-bottom: 5px;
+    }
+}
